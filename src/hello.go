@@ -8,4 +8,7 @@ import "fmt"
 //printa o classico hello world :)
 func main(){
 	fmt.Println("Ola mundo")
+
+	_,erro := fmt.Println("demonstrando", "retorno de funcoes")
+	fmt.Println(erro)
 }
