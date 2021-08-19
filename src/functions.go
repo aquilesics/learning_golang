@@ -38,4 +38,6 @@ func double(x ...int) []int {
 	fmt.Println("\ndouble numbers\n", re)
 	return re
 	
+
+	
 }

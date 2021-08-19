@@ -32,7 +32,7 @@ func main(){
 		case x == 2: 
 		case x == 4:
 		case x > 5: fmt.Println("x>5")
-			fallthrough
+			fallthrough //passa atraves do case e mostra o resultado
 		case x == 2342: fmt.Println("passa atraves do case e mostra o resultado")	
 		case x == 442: fmt.Println("passa atraves do case e mostra o resultado")
 		default:
