@@ -74,7 +74,7 @@ func main() {
 
 	// structs
 
-	type cliente struct {
+	type cliente struct { //atempt to uppercase keys, with you want export it to json!!s
 		nome      string
 		sobrenome string
 		fumante   bool
